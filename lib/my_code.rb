@@ -50,3 +50,5 @@ def reduce_to_total(arr, num = 0)
   end
   val
 end
+
+def 
