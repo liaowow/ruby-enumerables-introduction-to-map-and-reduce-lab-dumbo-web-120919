@@ -55,7 +55,7 @@ def reduce_to_all_true(arr)
   i = 0
   while i < arr.length do
     if !arr[i]
-      nil
+      return false
     end
     i += 1
   end
