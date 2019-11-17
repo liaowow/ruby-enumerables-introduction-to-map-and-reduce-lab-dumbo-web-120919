@@ -41,4 +41,12 @@ def map_to_square(arr)
 end
 
 # reduce-like
-def 
+def reduce_to_total(arr, num = 0)
+  val = num
+  i = 0
+  while i < arr.length do
+    val += arr[i]
+    i += 1
+  end
+  val
+end
