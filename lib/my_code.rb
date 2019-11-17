@@ -1,14 +1,14 @@
 # My Code here....
 # map-like
-def map_to_negativize(source_array)
+def map_to_negativize(arr)
   new_arr = []
   i = 0
-  while i < source_array.length do
-    source_array[i] * -1
-    new_arr << source_array[i]
+  while i < arr.length do
+    arr[i] * -1
+    new_arr << arr[i]
     i += 1
   end
-  return new_arr
+  new_arr
 end
 
 def map_to_no_change(arr)
