@@ -51,10 +51,25 @@ def reduce_to_total(arr, num = 0)
   val
 end
 
-def reduce_to_all_true(source_array)
-  
+def reduce_to_all_true(arr)
+  i = 0
+  while i < arr.length do
+    if !arr[i]
+      nil
+    end
+    i += 1
+  end
+  true
 end
 
 def reduce_to_any_true(source_array)
+  i = 0
+  while i < arr.length do
+    if arr[i]
+      return true
+    end
+    i += 1
+  end
+  false
 end
 
