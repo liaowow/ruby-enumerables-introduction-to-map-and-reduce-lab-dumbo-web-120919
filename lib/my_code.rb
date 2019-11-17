@@ -4,8 +4,7 @@ def map_to_negativize(arr)
   new_arr = []
   i = 0
   while i < arr.length do
-    arr[i] * (-1)
-    new_arr << arr[i]
+    new_arr << (arr[i] * -1)
     i += 1
   end
   new_arr
